@@ -1,0 +1,13 @@
+name: dolly
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - polars
+  - pip
+  - pip:
+    - "accelerate>=0.16.0,<1"
+    - "transformers[torch]>=4.28.1,<5"
+    - "torch>=1.13.1,<2"
+    - "notebook"
+    - "jupyter"
